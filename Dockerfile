@@ -4,7 +4,7 @@ LABEL maintainer="https://github.com/snadn/docker-verdaccio-ldap"
 
 WORKDIR /app
 
-ADD app
+ADD app ./
 
 ENV NODE_ENV=production
 
