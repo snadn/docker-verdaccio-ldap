@@ -2,11 +2,9 @@ FROM mhart/alpine-node
 MAINTAINER snadn <snadn@snadn.cn>
 LABEL maintainer="https://github.com/snadn/docker-verdaccio-ldap"
 
-RUN mkdir -p /app
+ADD app /
 
 WORKDIR /app
-
-ADD . $APPDIR
 
 ENV NODE_ENV=production
 
