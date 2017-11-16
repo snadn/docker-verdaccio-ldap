@@ -7,7 +7,7 @@
     "start": "verdaccio --config config/config.yaml"
   },
   "dependencies": {
-    "verdaccio": "~2.3.4",
+    "verdaccio": "~2.6.6",
     "verdaccio-ldap": "~1.2.0"
   },
   "author": "snadn",
