@@ -7,8 +7,8 @@
     "start": "verdaccio --config config/config.yaml"
   },
   "dependencies": {
-    "verdaccio": "~2.6.6",
-    "verdaccio-ldap": "~1.2.0"
+    "verdaccio": "~2.7.4",
+    "verdaccio-ldap": "~1.4.0"
   },
   "author": "snadn",
   "license": "MIT"
